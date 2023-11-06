@@ -18,7 +18,7 @@
 ![Currency Converter API Screenshot](https://github.com/rishav-karanjit/API-hunt/blob/main/outputs/CurrencyConverterAPI.png)
 
 ## Code snippets used to interact with the APIs for each task
-
+> Note: Actual API keys are hidden
 #### Task 1: OpenWeatherMap API
 
 ```
