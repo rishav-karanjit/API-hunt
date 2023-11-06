@@ -178,3 +178,21 @@ print(f"100 USD is {amount_usd_to_eur} EUR")
 amount_jpy_to_gbp = convert_currency('JPY', 'GBP', 1000, api_key)
 print(f"1000 JPY is {amount_jpy_to_gbp} GBP")
 ```
+
+## Self reflection on each API
+
+**OpenWeatherMap API:**
+
+OpenWeatherMap API offers a tremendous amount of weather data, which can be easily accessible through its endpoint. This was not my first time using this API, but I remember that during my first time, the documentation was challenging to navigate. Although it was a little difficult to navigate, when I reached a section I needed on the documentation, it was very clear. So, its documentation is well-written but not well-structured. The use of API was straightforward and simple. With the API endpoint, I could get current weather, forecasts, and historical data. I have used a lot of these data for my research works. This API could be used in various domains like agriculture, smart home systems, etc. The free tier offers a generous amount of calls, but for more extensive applications or commercial use, one might need to invest in a paid plan.
+
+**Google Maps API:**
+
+Google Maps API is a robust API for map-related services. I have used this before. This API's ease of use is little on the more challenging side. It was not easy to navigate on the console just to get the API keys. The website used to generate keys contains a variety of things that will make the timer very. However, the documentation was well written. The potential application of this API is vast. We can use this in any website and software. Some potential uses are showing property in real estate platforms, route optimization in delivery services, travel apps offering navigation functionality and so on. Compared to other APIs, students would be reluctant to use this API as we need to put our credit card info.
+
+**REST Countries API:**
+
+The REST Countries API is remarkably user-friendly, offering a free access to a wide array of data about countries. No API key is required, which simplifies the process of making requests. The information provided, such as country demographics, political structure, geographical data, and economic indicators, has various applications. It can serve educational platforms, demographic studies, global market analysis tools, or even as a backend utility for applications that need to validate or autofill country-related information. While it doesn't offer the complexity or depth of economic and demographic databases like the World Bank API, its simplicity and ease of access make it an excellent choice for straightforward country data retrieval tasks.
+
+**Currency Converter API:**
+
+The Currency Converter API is intuitive and requires minimal setup, which is advantageous for developers needing a quick integration for currency conversion. The API key process is straightforward, and the free tier's limitations are reasonable for smaller applications or development testing. However, it takes some days to get the API keys which is a negative factor of this API. The API can be a critical component for e-commerce platforms, financial apps, or any application that deals with international transactions and needs to provide real-time currency conversion. However, for production systems, especially in the financial sector, reliability and the accuracy of the data are paramount, so understanding the source and update frequency of the exchange rates is crucial.
